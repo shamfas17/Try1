@@ -1,3 +1,7 @@
+Plugins for build process
+
+//Maven Jar
+
 1. <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
@@ -13,7 +17,7 @@
        </configuration>
 </plugin>
 
-
+//Copy dependency plugin
 2. <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-dependency-plugin</artifactId>
